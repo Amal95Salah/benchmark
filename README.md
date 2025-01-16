@@ -23,7 +23,9 @@ This  project  provides  a  backend  API  for  uploading  CSV  files  containing
 ### 1.  Clone  the  Repository
 
 Clone  the  repository  to  your  local  machine:
-
+```
+https://github.com/Amal95Salah/benchmark.git
+```
 ### 2. Create and Activate a Virtual Environment
 python  -m  venv  venv
 .\venv\Scripts\activate
