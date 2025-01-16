@@ -1,16 +1,16 @@
-#Backend  API  for  CSV  Upload  and  Rate  Comparison
+# Backend  API  for  CSV  Upload  and  Rate  Comparison
 
-##Overview
+## Overview
 
 This  project  provides  a  backend  API  for  uploading  CSV  files  containing  user  shipping  data,  fetching  aggregated  market  rates,  and  calculating  potential  savings.  The  backend  is  built  using  **FastAPI**,  **SQLAlchemy**,  and  **MySQL**.
 
-###Features
+### Features
 
 - **CSV  Upload**:  Allows  users  to  upload  CSV  files  containing  shipping  data.
 - **Market  Rate  Comparison**:  Retrieves  aggregated  market  prices  and  user-uploaded  rates.
 - **Savings  Calculation**:  Computes  potential  savings  based  on  user  prices  and  market  prices.
 
-##Requirements
+## Requirements
 
 - **Python  3.9+**
 - **FastAPI**:  The  web  framework  for  the  API.
@@ -18,7 +18,7 @@ This  project  provides  a  backend  API  for  uploading  CSV  files  containing
 - **MySQL  8.0**:  Database  for  storing  the  data.
 - **Pandas**:  For  handling  and  processing  CSV  files.
 
-##Setup
+## Setup
 
 ###1.  Clone  the  Repository
 
