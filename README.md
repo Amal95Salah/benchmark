@@ -20,26 +20,26 @@ This  project  provides  a  backend  API  for  uploading  CSV  files  containing
 
 ## Setup
 
-###1.  Clone  the  Repository
+### 1.  Clone  the  Repository
 
 Clone  the  repository  to  your  local  machine:
 
-###2. Create and Activate a Virtual Environment
+### 2. Create and Activate a Virtual Environment
 python  -m  venv  venv
 .\venv\Scripts\activate
 
 
-###3. Install Dependencies
+### 3. Install Dependencies
 
 pip install fastapi uvicorn sqlalchemy pydantic mysqlclient python-multipart pandas openpyxl
 
-###4. Run the Backend Server
+### 4. Run the Backend Server
 
 uvicorn app.main:app --reload
 
-#API Endpoints
+# API Endpoints
 
-##1. POST /upload_csv
+## 1. POST /upload_csv
 This endpoint allows users to upload a CSV file containing their shipping data. The file is validated, and the data is stored in the users_rates table.
 
 Request Body:
@@ -60,7 +60,7 @@ Response:
 }
 ```
 
-2. GET /fetch_user_rates
+## 2. GET /fetch_user_rates
 
 This endpoint fetches the aggregated market rates and user-uploaded rates. It also calculates potential savings.
 
@@ -87,7 +87,7 @@ This endpoint fetches the aggregated market rates and user-uploaded rates. It al
 ```
 
 
-3. POST /upload_market_data
+## 3. POST /upload_market_data
 This endpoint aggregates market data into percentiles (10th, median, 90th) and stores it in the aggregated_market_prices table.
 
 Request Body:
